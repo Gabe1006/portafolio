@@ -1,7 +1,22 @@
 @charset "UTF-8";
 /* This is a comment! Text here will be ignored by the browser. */
 body {
-	margin: 0 auto;
+     font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+     background-color: #E0C458;
+     margin: 1;
+     padding: 1;
+     color: #cccccc;
+}
+
+a:link {
+     color: #cccccc;
+}
+a:visited {
+     color: #cccccc;
+}
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+	 color: #000000;
 }
 .homePage {
 	background: #82EB65;
@@ -11,7 +26,7 @@ body {
 	margin: 0 auto;
 }
 .header {
-	background: #AAAAAA;
+	background: #589AE0;
 	text-align: center;
 	margin: 0px;
 	padding: 5;
@@ -21,7 +36,7 @@ body {
 	
 }
 .nav {
-	background: #BBBBBB;
+	background: #FF0101;
 	margin: 0px;
 	padding: 5;
 	float: left;
@@ -30,14 +45,14 @@ body {
 	text-align: center;
 }
 .content {
-	background: #EEEEEE;
+	background: #F96461;
 	margin: 0px;
 	float: left;
 	width: 100%;
 	text-align: left;
 }
 .footer {
-	background: #777777;
+	background: #6DF796;
 	margin: 0px;
 	float: left;
 	width: 100%;
